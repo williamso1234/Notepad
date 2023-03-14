@@ -8,11 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     @IBOutlet var notesTextView: UITextView!
     @IBOutlet var titleTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
     @IBAction func handleSaveButtonPressed(_ sender: Any) {
         let title = titleTextField.text
         print("my title is: \(title!)")
