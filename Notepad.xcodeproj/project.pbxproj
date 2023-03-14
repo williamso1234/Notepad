@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D4B4F1A29AC4DAB006FC04B /* Notepad thing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notepad thing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4B4F1A29AC4DAB006FC04B /* Notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4B4F1D29AC4DAB006FC04B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D4B4F1F29AC4DAB006FC04B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3D4B4F2129AC4DAB006FC04B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		3D4B4F1129AC4DAB006FC04B = {
 			isa = PBXGroup;
 			children = (
-				3D4B4F1C29AC4DAB006FC04B /* Notepad thing */,
+				3D4B4F1C29AC4DAB006FC04B /* Notepad */,
 				3D4B4F1B29AC4DAB006FC04B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		3D4B4F1B29AC4DAB006FC04B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D4B4F1A29AC4DAB006FC04B /* Notepad thing.app */,
+				3D4B4F1A29AC4DAB006FC04B /* Notepad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D4B4F1C29AC4DAB006FC04B /* Notepad thing */ = {
+		3D4B4F1C29AC4DAB006FC04B /* Notepad */ = {
 			isa = PBXGroup;
 			children = (
 				3D4B4F1D29AC4DAB006FC04B /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				3D4B4F2829AC4DAC006FC04B /* LaunchScreen.storyboard */,
 				3D4B4F2B29AC4DAC006FC04B /* Info.plist */,
 			);
-			path = "Notepad thing";
+			path = Notepad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D4B4F1929AC4DAB006FC04B /* Notepad thing */ = {
+		3D4B4F1929AC4DAB006FC04B /* Notepad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D4B4F2E29AC4DAC006FC04B /* Build configuration list for PBXNativeTarget "Notepad thing" */;
+			buildConfigurationList = 3D4B4F2E29AC4DAC006FC04B /* Build configuration list for PBXNativeTarget "Notepad" */;
 			buildPhases = (
 				3D4B4F1629AC4DAB006FC04B /* Sources */,
 				3D4B4F1729AC4DAB006FC04B /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Notepad thing";
+			name = Notepad;
 			productName = "Notepad thing";
-			productReference = 3D4B4F1A29AC4DAB006FC04B /* Notepad thing.app */;
+			productReference = 3D4B4F1A29AC4DAB006FC04B /* Notepad.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D4B4F1529AC4DAB006FC04B /* Build configuration list for PBXProject "Notepad thing" */;
+			buildConfigurationList = 3D4B4F1529AC4DAB006FC04B /* Build configuration list for PBXProject "Notepad" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D4B4F1929AC4DAB006FC04B /* Notepad thing */,
+				3D4B4F1929AC4DAB006FC04B /* Notepad */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D4B4F1529AC4DAB006FC04B /* Build configuration list for PBXProject "Notepad thing" */ = {
+		3D4B4F1529AC4DAB006FC04B /* Build configuration list for PBXProject "Notepad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D4B4F2C29AC4DAC006FC04B /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D4B4F2E29AC4DAC006FC04B /* Build configuration list for PBXNativeTarget "Notepad thing" */ = {
+		3D4B4F2E29AC4DAC006FC04B /* Build configuration list for PBXNativeTarget "Notepad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D4B4F2F29AC4DAC006FC04B /* Debug */,
