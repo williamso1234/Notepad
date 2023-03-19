@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  Notepad thing
 //
 //  Created by William on 2/26/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     @IBOutlet var notesTextView: UITextView!
     @IBOutlet var titleTextField: UITextField!
@@ -29,12 +29,8 @@ class ViewController: UIViewController {
     
     @IBAction func handleLoadButtonPressed(_ sender: Any) {
         
-        titleTextField.text =
-            UserDefaults.standard.object(forKey:
-                                            "Title") as? String
+        titleTextField.text = UserDefaults.standard.object(forKey: "Title") as? String
         
-        notesTextView.text =
-            UserDefaults.standard.object(forKey:
-                                            "Body") as? String
+        notesTextView.text =  UserDefaults.standard.object(forKey: "Body") as? String
     }
 }
