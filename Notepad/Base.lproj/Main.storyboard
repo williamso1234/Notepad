@@ -55,7 +55,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="notesTextView" destination="87j-3Y-n5d" id="maf-fd-Nio"/>
+                        <outlet property="bodyTextView" destination="87j-3Y-n5d" id="wqk-Ml-1FJ"/>
                         <outlet property="titleTextField" destination="bib-bT-HDC" id="vis-TF-KIZ"/>
                     </connections>
                 </viewController>
